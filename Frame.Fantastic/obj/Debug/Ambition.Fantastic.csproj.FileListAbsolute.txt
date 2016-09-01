@@ -1,0 +1,11 @@
+H:\Ambition\Ambition\Ambition.Fantastic\bin\Debug\Ambition.Fantastic.dll
+H:\Ambition\Ambition\Ambition.Fantastic\bin\Debug\Ambition.Fantastic.pdb
+H:\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.csprojResolveAssemblyReference.cache
+H:\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.dll
+H:\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.pdb
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\bin\Debug\Ambition.Fantastic.dll
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\bin\Debug\Ambition.Fantastic.pdb
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\bin\Debug\System.Web.Mvc.dll
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.csprojResolveAssemblyReference.cache
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.dll
+F:\Personal\Ambition\Ambition\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.pdb
