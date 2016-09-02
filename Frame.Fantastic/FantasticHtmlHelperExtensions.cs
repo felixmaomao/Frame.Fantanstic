@@ -29,6 +29,14 @@ namespace Frame.Fantastic
         {
             return new ButtonPopup();
         }
+        public static ButtonPopupAdd ButtonPopupAdd<T>(this FantasticHtmlHelper<T> helper)
+        {
+            return new ButtonPopupAdd();
+        }
+        public static ButtonPopupEdit ButtonPopupEdit<T>(this FantasticHtmlHelper<T> helper)
+        {
+            return new ButtonPopupEdit();
+        }
         public static AjaxList AjaxList<T>(this FantasticHtmlHelper<T> helper)
         {
             return new AjaxList();

@@ -72,4 +72,14 @@ namespace Frame.Fantastic
         Delete
     }
 
+    public class ButtonStyle
+    {
+        public const string BtnSuccess = "btn btn-success";
+        public const string BtnPrimary = "btn btn-primary";
+        public const string BtnInfo = "btn btn-info";
+        public const string BtnWarn = "btn btn-warning";
+        public const string BtnError = "btn btn-danger";
+    }
+         
+
 }

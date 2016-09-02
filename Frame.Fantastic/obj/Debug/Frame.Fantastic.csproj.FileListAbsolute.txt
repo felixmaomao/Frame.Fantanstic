@@ -5,10 +5,10 @@ F:\Personal\Frame.Fantastic\Ambition.Fantastic\bin\Debug\System.Web.Mvc.xml
 F:\Personal\Frame.Fantastic\Ambition.Fantastic\obj\Debug\Frame.Fantastic.csprojResolveAssemblyReference.cache
 F:\Personal\Frame.Fantastic\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.dll
 F:\Personal\Frame.Fantastic\Ambition.Fantastic\obj\Debug\Ambition.Fantastic.pdb
-F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Ambition.Fantastic.dll
-F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Ambition.Fantastic.pdb
 F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\System.Web.Mvc.dll
 F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\System.Web.Mvc.xml
 F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Frame.Fantastic.csprojResolveAssemblyReference.cache
-F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Ambition.Fantastic.dll
-F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Ambition.Fantastic.pdb
+F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Frame.Fantastic.dll
+F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Frame.Fantastic.pdb
+F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Frame.Fantastic.dll
+F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Frame.Fantastic.pdb
