@@ -12,3 +12,10 @@ F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Frame.Fantastic.dll
 F:\Personal\Frame.Fantastic\Frame.Fantastic\bin\Debug\Frame.Fantastic.pdb
 F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Frame.Fantastic.dll
 F:\Personal\Frame.Fantastic\Frame.Fantastic\obj\Debug\Frame.Fantastic.pdb
+E:\Frame.Fantanstic\Frame.Fantastic\bin\Debug\Frame.Fantastic.dll
+E:\Frame.Fantanstic\Frame.Fantastic\bin\Debug\Frame.Fantastic.pdb
+E:\Frame.Fantanstic\Frame.Fantastic\bin\Debug\System.Web.Mvc.dll
+E:\Frame.Fantanstic\Frame.Fantastic\bin\Debug\System.Web.Mvc.xml
+E:\Frame.Fantanstic\Frame.Fantastic\obj\Debug\Frame.Fantastic.dll
+E:\Frame.Fantanstic\Frame.Fantastic\obj\Debug\Frame.Fantastic.pdb
+E:\Frame.Fantanstic\Frame.Fantastic\obj\Debug\Frame.Fantastic.csprojResolveAssemblyReference.cache

@@ -59,6 +59,22 @@ namespace Frame.Fantastic
             return builder.ToString();
         }
 
+        public static string Info(string content)
+        {
+            return new MessageBox().MessageType(Frame.Fantastic.MessageType.Info).Content(content).show();
+        }
+        public static string Success(string content)
+        {
+            return new MessageBox().MessageType(Frame.Fantastic.MessageType.Success).Content(content).show();
+        }
+        public static string Warn(string content)
+        {
+            return new MessageBox().MessageType(Frame.Fantastic.MessageType.Warn).Content(content).show();
+        }
+        public static string Error(string content)
+        {
+            return new MessageBox().MessageType(Frame.Fantastic.MessageType.Error).Content(content).show();
+        }
     }
 
     public enum MessageType
