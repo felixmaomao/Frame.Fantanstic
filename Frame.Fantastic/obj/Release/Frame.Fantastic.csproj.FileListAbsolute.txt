@@ -1,0 +1,7 @@
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\bin\Release\Frame.Fantastic.dll
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\bin\Release\Frame.Fantastic.pdb
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\bin\Release\System.Web.Mvc.dll
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\bin\Release\System.Web.Mvc.xml
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\obj\Release\Frame.Fantastic.csprojResolveAssemblyReference.cache
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\obj\Release\Frame.Fantastic.dll
+F:\Personal\Frame.Fantanstic\Frame.Fantastic\obj\Release\Frame.Fantastic.pdb

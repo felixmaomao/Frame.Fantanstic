@@ -58,6 +58,7 @@
     <Compile Include="ButtonPopupAdd.cs" />
     <Compile Include="ButtonPopupEdit.cs" />
     <Compile Include="Calendar.cs" />
+    <Compile Include="CheckBox.cs" />
     <Compile Include="Column.cs" />
     <Compile Include="Extentions.cs" />
     <Compile Include="FantasticExtensions.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="FantasticHtmlHelperExtensions.cs" />
     <Compile Include="FileUpload.cs" />
     <Compile Include="Grid.cs" />
+    <Compile Include="Link.cs" />
     <Compile Include="MessageBox.cs" />
     <Compile Include="NavigateList.cs" />
     <Compile Include="Page.cs" />

@@ -71,5 +71,10 @@ namespace Frame.Fantastic
         {
             return new Page();
         }
+
+        public static CheckBox CheckBox<T>(this FantasticHtmlHelper<T> helper)
+        {
+            return new CheckBox();
+        }
     }
 }
