@@ -44,6 +44,10 @@ namespace Frame.Fantastic
         }
         public override string Render()
         {
+            if (string.IsNullOrEmpty(this._id))
+            {
+                this._id = "btn_" + Guid.NewGuid().ToString("D"); //唯一ID的生成               
+            }
             _dicHtmlAttributes.Add("id", this._id);
             _dicHtmlAttributes.Add("type", "button");
             _dicHtmlAttributes.Fill("class", _cssclass);

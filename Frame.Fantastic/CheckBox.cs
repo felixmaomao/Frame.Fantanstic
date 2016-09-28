@@ -10,7 +10,6 @@ namespace Frame.Fantastic
     {
         private string _id = string.Empty;
         private string _name = string.Empty;
-        private string _cssclass = string.Empty;
         private string _value = string.Empty;
         private IDictionary<string, string> _dicHtmlAttributes = new Dictionary<string, string>();
 
@@ -19,11 +18,7 @@ namespace Frame.Fantastic
             this._id = id;
             return this;
         }
-        public CheckBox CssClass(string css)
-        {
-            this._cssclass = css;
-            return this;
-        }
+   
         public CheckBox Name(string name)
         {
             this._name = name;
@@ -37,9 +32,12 @@ namespace Frame.Fantastic
 
         public override string Render()
         {
+            if (string.IsNullOrEmpty(this._id))
+            {
+                this._id = "checkbox_" + Guid.NewGuid().ToString("D"); //唯一ID的生成               
+            }
             _dicHtmlAttributes.Add("id", this._id);
-            _dicHtmlAttributes.Add("type", "checkbox");
-            _dicHtmlAttributes.Fill("class", _cssclass);
+            _dicHtmlAttributes.Add("type", "checkbox");       
             _dicHtmlAttributes.Fill("value", _value);
           
             return string.Format("<input {0} />", _dicHtmlAttributes.DicToHtmlAttr());

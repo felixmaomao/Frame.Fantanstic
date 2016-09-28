@@ -8,10 +8,10 @@ namespace Frame.Fantastic
 {
     public class Link : FantasticHelperBase
     {
-        private string _id = string.Empty;
-        private string _name = string.Empty;
-        private string _cssclass = string.Empty;
-        private string _value = string.Empty;
+        private string _id = string.Empty;    
+        private string _cssclass = string.Empty;  
+        private string _linkurl = string.Empty;
+        private string _text = string.Empty;
         private IDictionary<string, string> _dicHtmlAttributes = new Dictionary<string, string>();
 
         public Link ID(string id)
@@ -24,25 +24,27 @@ namespace Frame.Fantastic
             this._cssclass = css;
             return this;
         }
-        public Link Name(string name)
+        public Link LinkUrl(string linkurl)
         {
-            this._name = name;
+            this._linkurl = linkurl;
             return this;
         }
-        public Link Value(string value)
+        public Link Text(string text)
         {
-            this._value = value;
+            this._text = text;
             return this;
         }
 
         public override string Render()
         {
-            _dicHtmlAttributes.Add("id", this._id);
-            _dicHtmlAttributes.Add("type", "checkbox");
+            if (string.IsNullOrEmpty(this._id))
+            {
+                this._id = "a_" + Guid.NewGuid().ToString("D"); //唯一ID的生成               
+            }
+            _dicHtmlAttributes.Add("id", this._id);                    
             _dicHtmlAttributes.Fill("class", _cssclass);
-            _dicHtmlAttributes.Fill("value", _value);
-
-            return string.Format("<a href= {0} />", _dicHtmlAttributes.DicToHtmlAttr());
+            _dicHtmlAttributes.Fill("href",_linkurl);        
+            return string.Format("<a {0}><b>{1}</b></a>", _dicHtmlAttributes.DicToHtmlAttr(),this._text);
         }
     }
 }
